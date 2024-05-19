@@ -5,9 +5,9 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
+import user1 from "../assets/profile-pictures/irebe.jpg";
+import user2 from "../assets/profile-pictures/tech.jpeg";
+import user3 from "../assets/profile-pictures/fixit.png";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
@@ -24,17 +24,17 @@ export const about = [
     user: "Irebe Library",
     company: "Web Development",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Irebe Library gives the best online web development and programming tutorials for all of the latest web technologies including Ajax, Json, Mysql, PHP, HTML, CSS and other computer skills.",
   },
   {
-    user: "Abraham Bond",
+    user: "Tech Hub",
     company: "Transport System",
     image: user2,
     text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
   },
   {
-    user: "Ahmad Sayd",
-    company: "AppDev Limited",
+    user: "FixIt Tunnel",
+    company: "Tech Solutions",
     image: user3,
     text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
   },
@@ -126,14 +126,14 @@ export const pricingOptions = [
     price: "$0",
     features: [
       "Private board sharing",
-      "5 Gb Storage",
+      "6 Gb Storage",
       "Web Analytics",
       "Private Mode",
     ],
   },
   {
     title: "Pro",
-    price: "$10",
+    price: "$15",
     features: [
       "Private board sharing",
       "10 Gb Storage",
@@ -143,7 +143,7 @@ export const pricingOptions = [
   },
   {
     title: "Enterprise",
-    price: "$200",
+    price: "$150",
     features: [
       "Private board sharing",
       "Unlimited Storage",

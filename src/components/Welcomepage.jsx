@@ -1,14 +1,14 @@
-import v3 from "../assets/v3.mp4";
-import v4 from "../assets/v4.mp4";
+import intro from "../assets/intro.mp4";
+import outro from "../assets/outro.mp4";
 
 const Welcomepage = () => {
 
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-3xl lg:text-5xl text-center tracking-wide">
-      Tech Hub For Advanced software, 
+      Tech Hub and Irebe Library For Advanced software, 
       <span className="bg-gradient-to-r from-green-500 to-blue-800 text-transparent bg-clip-text">
-          research for advanced people
+         {" "} research for advanced people
       </span>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 wax-w-4xl">
@@ -39,7 +39,7 @@ const Welcomepage = () => {
           className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400 mx-2 my-4"
            
           >
-            <source src={v3} type="video/mp4"/>
+            <source src={intro} type="video/mp4"/>
           </video>
 
           <video 
@@ -49,7 +49,7 @@ const Welcomepage = () => {
           className="rounded-lg w-1/2 border border-blue-700 shadow-blue-400 mx-2 my-4"
            
           >
-            <source src={v4} type="video/mp4"/>
+            <source src={outro} type="video/mp4"/>
           </video>
 
         </div>
